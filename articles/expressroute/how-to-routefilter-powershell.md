@@ -122,7 +122,7 @@ A route filter can have only one rule, and the rule must be of type 'Allow'. Thi
 
 ### 1. Create a route filter
 
-First, create the route filter. The command 'New-AzureRmRouteFilter' only creates a route filter resource. After you create the resource, you must then create a rule and attach it to the route filter object. Run the following command to create a route filter resource:
+First, create the route filter. The command 'New-AzureRmRouteFilter' only creates a route filter resource. You must place the route filter in a resource group and in the same location as that of the Express Route circuit. After you create the resource, you must then create a rule and attach it to the route filter object. Run the following command to create a route filter resource:
 
 ```powershell
 New-AzureRmRouteFilter -Name "MyRouteFilter" -ResourceGroupName "MyResourceGroup" -Location "West US"
