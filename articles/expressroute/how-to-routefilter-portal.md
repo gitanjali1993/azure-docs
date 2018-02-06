@@ -93,7 +93,7 @@ You can create a route filter by selecting the option to create a new resource. 
 
 ![Create a route filter](.\media\how-to-routefilter-portal\CreateRouteFilter1.png)
 
-You must place the route filter in a resource group. 
+You must place the route filter in a resource group and in the same location as that of the Express Route circuit.
 
 ![Create a route filter](.\media\how-to-routefilter-portal\CreateRouteFilter.png)
 
